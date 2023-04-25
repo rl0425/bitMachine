@@ -1,0 +1,59 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15%;
+    height: 90px;
+}
+
+.logo{
+    margin-right: 48px;
+}
+
+.logo > span{
+    font-size: 24px;
+    font-weight: 600;
+    color: #0098fe;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    height: 29px;
+    cursor: pointer;
+}
+
+.leftBox{
+    display: flex;
+}
+
+.rightBox{
+    display: flex;
+    gap: 12px;
+}
+
+.rightBox > div{
+    display: flex;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.registerBox{
+    border: 1px solid #3236ec;
+    color: #3236ec;
+}
+
+.loginBox{
+    border: 1px solid #565656;
+    color: #565656;
+}
